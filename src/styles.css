@@ -4,3 +4,9 @@ body {
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 1050px) {
+	body {
+	  font: normal 17px sans-serif;
+	}
+}
