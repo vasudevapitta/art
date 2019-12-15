@@ -1,0 +1,19 @@
+<section class="container">
+	
+	<ng-container *ngFor="let image of images">
+		
+			<figure>
+			<a href="{{image.src}}" target="_blank">
+		 		<img src="{{image.src}}" alt="{{image.altText}}" class="img" loading="lazy">
+		 	</a>
+		  		<figcaption>
+		  			Title: {{image.title}} <br>
+		  			Medium: {{image.medium}} <br>
+		  			Size: {{image.size}} <br>
+					Status: {{image.status}} <span [ngStyle]="{'color':image.status === 'Available' ? 'green' : 'red'}">•</span>
+		  		</figcaption>
+			</figure>
+
+	</ng-container>
+
+</section>

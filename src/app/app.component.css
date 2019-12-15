@@ -1,0 +1,66 @@
+.interested {
+    text-decoration: none;
+    background-color: #17961b;
+    color: #fff;
+    padding: 10px;
+    margin-right: 65px;
+    border-radius: 6px 6px 6px 6px;
+	-moz-border-radius: 6px 6px 6px 6px;
+	-webkit-border-radius: 6px 6px 6px 6px;
+	border: 0px solid #000000;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.interested:hover,
+.interested:focus {
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(23,150,27,1);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(23,150,27,1);
+	box-shadow: 0px 0px 3px 1px rgba(23,150,27,1);
+	transition: ease 0.3s;
+	text-decoration: underline;
+}
+
+.scrolltop {
+	width: 25px;
+}
+
+.social-icon:hover,
+.social-icon:focus,
+.scrolltop:hover,
+.scrolltop:focus {
+	opacity: 0.6;
+	transition: ease 0.2s;
+}
+.info h2 {
+	text-align: center;
+}
+
+.flexer {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.flexer div {
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 1px solid #000000;
+	margin: 1px;
+	width: 40%;
+}
+
+.flexer ul {
+	padding: 15px;
+    text-align: left;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 1050px) {
+
+	.flexer div {
+		width: 100%;
+	}
+}

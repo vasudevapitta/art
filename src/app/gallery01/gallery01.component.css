@@ -1,0 +1,15 @@
+.container {
+	padding-top: 70px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.img {
+    width: 200px;
+}
+
+figure {
+	text-align: left;
+	padding: 20px;
+}

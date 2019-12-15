@@ -1,0 +1,40 @@
+.logo {
+	width: 200px;
+	float: left;
+}
+
+header span {
+	margin-left: -20px;
+	text-align: right;
+	line-height: 10px;
+}
+
+nav {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	top: 0;
+	position: fixed;
+	width: 100%;
+	padding-left: 25px;
+	background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+
+	.interested {
+	    margin-right: 10px;
+	}
+
+	header nav h1 {
+		width: 360px;
+	}
+
+	nav {
+		flex-wrap: wrap;
+		justify-content: space-around;
+		padding: 10px;
+		padding-left: 0;
+	}
+}

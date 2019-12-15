@@ -1,0 +1,33 @@
+.formDiv {
+	text-align: center;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#sbmt {
+	cursor: pointer;
+	margin-right: 0;
+	padding: 15px 0;
+	width: 300px;
+}
+
+.thankyou_message {
+	color: #000;
+}
+
+#msg {
+	width: 300px;
+	height: 120px;
+}
+
+.label {
+	display: inline;
+    background-color: #fff;
+    padding: 6px;
+}
+
+.userdetails {
+	width: 300px;
+	height: 30px;
+}
