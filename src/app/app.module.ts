@@ -12,6 +12,7 @@ import { ContactComponent } from './contact/contact.component';
 import { MessageWidgetComponent } from './message-widget/message-widget.component';
 import { FooterComponent } from './footer/footer.component';
 import { SocialIconsComponent } from './social-icons/social-icons.component';
+import { HeroImgComponent } from './hero-img/hero-img.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SocialIconsComponent } from './social-icons/social-icons.component';
     ContactComponent,
     MessageWidgetComponent,
     FooterComponent,
-    SocialIconsComponent
+    SocialIconsComponent,
+    HeroImgComponent
   ],
   imports: [
     BrowserModule
