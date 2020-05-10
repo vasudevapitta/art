@@ -17,9 +17,50 @@ eighteen_twentyFour: string = "18 x 24\" inches";
 sixteen_twenty: string = "16 x 20\" inches";
 twelve_sixteen: string = "12 x 16\" inches";
 twentyFour_thirty: string = "24 x 30\" inches";
+personal_collection:string = "Personal Collection";
 available:string = "Available";
 sold:string = "Sold";
 images: Array<{src: string, altText: string, title: string, medium: string, size: string, status: string}> = [
+{
+	"src":"assets/images/34.jpg",
+	"altText":this.genericImgAltText,
+	"title":"Play time",
+	"medium":this.oil,
+	"size":this.eight_ten,
+	"status":this.available
+},
+{
+	"src":"assets/images/33.jpg",
+	"altText":this.genericImgAltText,
+	"title":"Game of drones",
+	"medium":this.oil,
+	"size":this.eight_ten,
+	"status":this.available
+},
+{
+	"src":"assets/images/32.jpg",
+	"altText":this.genericImgAltText,
+	"title":"Pyar corona",
+	"medium":this.oil,
+	"size":this.eight_ten,
+	"status":this.available
+},
+{
+	"src":"assets/images/31.jpg",
+	"altText":this.genericImgAltText,
+	"title":"Portrait of my mother",
+	"medium":this.oil,
+	"size":this.twelve_sixteen,
+	"status":this.personal_collection
+},
+{
+	"src":"assets/images/30.jpg",
+	"altText":this.genericImgAltText,
+	"title":"Lovely nightmare",
+	"medium":this.oil,
+	"size":this.eight_ten,
+	"status":this.available
+},
 {
 	"src":"assets/images/29.jpg",
 	"altText":this.genericImgAltText,
