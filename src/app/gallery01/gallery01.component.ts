@@ -22,7 +22,7 @@ available:string = "Available";
 sold:string = "Sold";
 images: Array<{src: string, altText: string, title: string, medium: string, size: string, status: string}> = [
 {
-	"src":"assets/images/34.jpg",
+	"src":"assets/images/34.jpeg",
 	"altText":this.genericImgAltText,
 	"title":"Play time",
 	"medium":this.oil,
@@ -30,7 +30,7 @@ images: Array<{src: string, altText: string, title: string, medium: string, size
 	"status":this.available
 },
 {
-	"src":"assets/images/33.jpg",
+	"src":"assets/images/33.jpeg",
 	"altText":this.genericImgAltText,
 	"title":"Game of drones",
 	"medium":this.oil,
@@ -38,7 +38,7 @@ images: Array<{src: string, altText: string, title: string, medium: string, size
 	"status":this.available
 },
 {
-	"src":"assets/images/32.jpg",
+	"src":"assets/images/32.jpeg",
 	"altText":this.genericImgAltText,
 	"title":"Pyar corona",
 	"medium":this.oil,
@@ -54,7 +54,7 @@ images: Array<{src: string, altText: string, title: string, medium: string, size
 	"status":this.personal_collection
 },
 {
-	"src":"assets/images/30.jpg",
+	"src":"assets/images/30.jpeg",
 	"altText":this.genericImgAltText,
 	"title":"Lovely nightmare",
 	"medium":this.oil,
