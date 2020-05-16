@@ -22,6 +22,22 @@ available:string = "Available";
 sold:string = "Sold";
 images: Array<{src: string, altText: string, title: string, medium: string, size: string, status: string}> = [
 {
+	"src":"assets/images/37.jpeg",
+	"altText":this.genericImgAltText,
+	"title":"Feelings of a biased child",
+	"medium":this.oil,
+	"size":this.sixteen_twenty,
+	"status":this.available
+},
+{
+	"src":"assets/images/35.jpeg",
+	"altText":this.genericImgAltText,
+	"title":"Shepherd of the hills",
+	"medium":this.oil,
+	"size":this.eight_ten,
+	"status":this.available
+},
+{
 	"src":"assets/images/34.jpeg",
 	"altText":this.genericImgAltText,
 	"title":"Play time",
