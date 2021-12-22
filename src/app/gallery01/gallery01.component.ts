@@ -21,8 +21,16 @@ personal_collection:string = "Personal Collection";
 available:string = "Available";
 sold:string = "Sold";
 images: Array<{src: string, altText: string, title: string, medium: string, size: string, status: string}> = [
-{
-	"src":"assets/images/37.jpeg",
+	{
+		"src":"assets/images/37.jpg",
+		"altText":this.genericImgAltText,
+		"title":"Man wearing headphones",
+		"medium":this.oil,
+		"size":this.sixteen_twenty,
+		"status":this.available
+	},
+	{
+	"src":"assets/images/36.jpeg",
 	"altText":this.genericImgAltText,
 	"title":"Feelings of a biased child",
 	"medium":this.oil,
@@ -56,7 +64,7 @@ images: Array<{src: string, altText: string, title: string, medium: string, size
 {
 	"src":"assets/images/32.jpeg",
 	"altText":this.genericImgAltText,
-	"title":"Pyar corona",
+	"title":"Crying beauty",
 	"medium":this.oil,
 	"size":this.eight_ten,
 	"status":this.available
